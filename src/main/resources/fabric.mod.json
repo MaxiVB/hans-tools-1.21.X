@@ -9,7 +9,7 @@
 	],
 
 	"contact": {
-		"sources": ""
+		"sources": "https://github.com/MaxiVB/hans-tools-1.21X"
 	},
 	"license": "MIT",
 	"icon": "assets/hanstools/hans-tools.png",

@@ -1,13 +1,13 @@
 package net.maxivb.hanstools;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// Very important comment
 public class HansTools implements ModInitializer {
 	public static final String MOD_ID = "hanstools";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final Logger LOGGER  = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
