@@ -1,4 +1,6 @@
 {
   "item.hanstools.ruby": "Rubin", "item.hanstools.ruby_upgrade_smithing_template": "Rubin_Schmiedevorlage",
-  "item.hanstools.emerald_upgrade_smithing_template": "Smaragd_Schmiedevorlage"
+  "item.hanstools.emerald_upgrade_smithing_template": "Smaragd_Schmiedevorlage",
+
+  "block.hanstools.ruby_block": "Rubinblock"
 }
