@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maxivb.hanstools.HansTools;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -12,6 +13,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 import javax.tools.Tool;
 
@@ -20,14 +22,13 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.COPPER)));
 
-    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
-            new Block(AbstractBlock.Settings.create().strength(0.1f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-
     public static final Block RUBY_DEEPSLATE_ORE_BLOCK = registerBlock("ruby_deepslate_ore_block",
-            new Block(AbstractBlock.Settings.create().strength(0.5f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(0.2f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_deepslate_ore_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(0.1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {
