@@ -20,6 +20,16 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.COPPER)));
 
+    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
+            new Block(AbstractBlock.Settings.create().strength(0.1f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block RUBY_DEEPSLATE_ORE_BLOCK = registerBlock("ruby_deepslate_ore_block",
+            new Block(AbstractBlock.Settings.create().strength(0.5f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(HansTools.MOD_ID, name), block);
@@ -32,9 +42,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         HansTools.LOGGER.info("Registering Mod Blocks for " + HansTools.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModBlocks.RUBY_BLOCK);
-        });
     }
 }

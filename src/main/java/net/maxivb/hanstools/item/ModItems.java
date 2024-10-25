@@ -21,11 +21,6 @@ public class ModItems {
 
     public static void registerModItems() {
         HansTools.LOGGER.info("Registering Mod Items for " + HansTools.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(RUBY);
-            fabricItemGroupEntries.add(RUBY_UPGRADE_SMITHING_TEMPLATE);
-            fabricItemGroupEntries.add(EMERALD_UPGRADE_SMITHING_TEMPLATE);
-        });
     }
 }
+

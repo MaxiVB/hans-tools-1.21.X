@@ -2,5 +2,11 @@
   "item.hanstools.ruby": "Rubin", "item.hanstools.ruby_upgrade_smithing_template": "Rubin_Schmiedevorlage",
   "item.hanstools.emerald_upgrade_smithing_template": "Smaragd_Schmiedevorlage",
 
-  "block.hanstools.ruby_block": "Rubinblock"
+  "block.hanstools.ruby_block": "Rubinblock",
+  "block.hanstools.ruby_ore_block": "Rubinerz",
+  "block.hanstools.ruby_deepslate_ore_block": "Tiefenschiefer-Rubinerz",
+
+  "itemgroup.hanstools.ores": "Erze und Erzblocke",
+  "itemgroup.hanstools.tools": "Werkzeuge",
+  "itemgroup.hanstools.templates": "Schmiedevorlagen"
 }
