@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "group": "uranium",
+  "ingredient": {
+    "item": "hanstools:uranium_ore_block"
+  },
+  "result": {
+    "id": "hanstools:uranium"
+  }
+}

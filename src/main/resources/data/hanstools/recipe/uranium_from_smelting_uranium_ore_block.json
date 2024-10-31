@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.5,
+  "group": "uranium",
+  "ingredient": {
+    "item": "hanstools:uranium_ore_block"
+  },
+  "result": {
+    "id": "hanstools:uranium"
+  }
+}

@@ -1,8 +1,11 @@
 {
   "replace": false,
-  "values":[
+  "values": [
     "hanstools:ruby_block",
     "hanstools:ruby_ore_block",
-    "hanstools:ruby_deepslate_ore_block"
+    "hanstools:ruby_deepslate_ore_block",
+    "hanstools:uranium_block",
+    "hanstools:uranium_ore_block",
+    "hanstools:uranium_deepslate_ore_block"
   ]
 }
