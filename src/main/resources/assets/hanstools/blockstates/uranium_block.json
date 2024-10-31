@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hanstools:block/uranium_block"
+    }
+  }
+}

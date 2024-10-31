@@ -17,10 +17,14 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))
                     .displayName(Text.translatable("itemgroup.hanstools.ores"))
                     .entries((displayContext, entries) -> {
-                          entries.add(ModBlocks.RUBY_ORE_BLOCK);
-                          entries.add(ModBlocks.RUBY_DEEPSLATE_ORE_BLOCK);
                           entries.add(ModItems.RUBY);
                           entries.add(ModBlocks.RUBY_BLOCK);
+                          entries.add(ModBlocks.RUBY_ORE_BLOCK);
+                          entries.add(ModBlocks.RUBY_DEEPSLATE_ORE_BLOCK);
+                          entries.add(ModItems.URANIUM);
+                          entries.add(ModBlocks.URANUIM_BLOCK);
+                          entries.add(ModBlocks.URANIUM_ORE_BLOCK);
+                          entries.add(ModBlocks.URANUIM_DEEPSLATE_ORE_BLOCK);
 
 
                     }).build());

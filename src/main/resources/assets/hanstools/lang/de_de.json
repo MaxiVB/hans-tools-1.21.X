@@ -1,10 +1,15 @@
 {
-  "item.hanstools.ruby": "Rubin", "item.hanstools.ruby_upgrade_smithing_template": "Rubin_Schmiedevorlage",
+  "item.hanstools.ruby": "Rubin",
+  "item.hanstools.ruby_upgrade_smithing_template": "Rubin_Schmiedevorlage",
   "item.hanstools.emerald_upgrade_smithing_template": "Smaragd_Schmiedevorlage",
+  "item.hanstools.uranium": "Uran",
 
   "block.hanstools.ruby_block": "Rubinblock",
   "block.hanstools.ruby_ore_block": "Rubinerz",
   "block.hanstools.ruby_deepslate_ore_block": "Tiefenschiefer-Rubinerz",
+  "block.hanstools.uranium_block": "Uranblock",
+  "block.hanstools.uranium_ore_block": "Uranerz",
+  "block.hanstools.uranium_deepslate_ore_block": "Tiefenschiefer-Uranerz",
 
   "itemgroup.hanstools.ores": "Erze und Erzblocke",
   "itemgroup.hanstools.tools": "Werkzeuge",

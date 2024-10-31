@@ -13,6 +13,7 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RUBY_UPGRADE_SMITHING_TEMPLATE = registerItem("ruby_upgrade_smithing_template", new Item(new Item.Settings()));
     public static final Item EMERALD_UPGRADE_SMITHING_TEMPLATE = registerItem("emerald_upgrade_smithing_template", new Item(new Item.Settings()));
+    public static final Item URANIUM = registerItem("uranium", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {

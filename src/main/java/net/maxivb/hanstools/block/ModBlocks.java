@@ -19,17 +19,28 @@ import javax.tools.Tool;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
+            new Block(AbstractBlock.Settings.create().strength(5f)
                     .requiresTool().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block RUBY_DEEPSLATE_ORE_BLOCK = registerBlock("ruby_deepslate_ore_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
-                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
-                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block URANUIM_BLOCK = registerBlock("uranium_block",
+            new Block(AbstractBlock.Settings.create().strength(5f)
+                    .requiresTool().sounds(BlockSoundGroup.SCULK_CATALYST)));
+
+    public static final Block URANUIM_DEEPSLATE_ORE_BLOCK = registerBlock("uranium_deepslate_ore_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block URANIUM_ORE_BLOCK = registerBlock("uranium_ore_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.SCULK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

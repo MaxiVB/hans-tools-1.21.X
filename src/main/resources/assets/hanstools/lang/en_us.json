@@ -1,10 +1,15 @@
 {
-  "item.hanstools.ruby": "Ruby","item.hanstools.ruby_upgrade_smithing_template": "Ruby_Upgrade_Template",
+  "item.hanstools.ruby": "Ruby",
+  "item.hanstools.ruby_upgrade_smithing_template": "Ruby_Upgrade_Template",
   "item.hanstools.emerald_upgrade_smithing_template": "Emerald_Upgrade_Template",
+  "item.hanstools.uranium": "Uranium",
 
   "block.hanstools.ruby_block": "Block of Ruby",
   "block.hanstools.ruby_ore_block": "Ruby Ore",
   "block.hanstools.ruby_deepslate_ore_block": "Deepslate Ruby Ore",
+  "block.hanstools.uranium_block": "Block of Uranium",
+  "block.hanstools.uranium_ore_block": "Uranium Ore",
+  "block.hanstools.uranium_deepslate_ore_block": "Deepslate Uranium Ore",
 
   "itemgroup.hanstools.ores": "Ores and Oreblocks",
   "itemgroup.hanstools.tools": "Tools",
