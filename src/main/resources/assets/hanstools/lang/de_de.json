@@ -4,6 +4,7 @@
   "item.hanstools.emerald_upgrade_smithing_template": "Smaragd_Schmiedevorlage",
   "item.hanstools.uranium": "Uran",
   "item.hanstools.uranium_ingot": "Uranbarren",
+  "item.hanstools.uranium_rod": "Uranrute",
 
   "block.hanstools.ruby_block": "Rubinblock",
   "block.hanstools.ruby_ore_block": "Rubinerz",
@@ -14,5 +15,7 @@
 
   "itemgroup.hanstools.ores": "Erze und Erzblocke",
   "itemgroup.hanstools.tools": "Werkzeuge",
-  "itemgroup.hanstools.templates": "Schmiedevorlagen"
+  "itemgroup.hanstools.templates": "Schmiedevorlagen",
+  "itemgroup.hanstools.food": "Essen",
+  "itemgroup.hanstools.fuel": "Kraftstoff"
 }

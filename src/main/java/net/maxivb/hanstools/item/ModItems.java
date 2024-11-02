@@ -16,6 +16,9 @@ public class ModItems {
     public static final Item URANIUM = registerItem("uranium", new Item(new Item.Settings()));
     public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new Item.Settings()));
 
+    public static final Item URANIUM_ROD = registerItem("uranium_rod", new Item(new Item.Settings()
+            .food(ModFoodComponents.URANIUM_ROD)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(HansTools.MOD_ID, name), item);

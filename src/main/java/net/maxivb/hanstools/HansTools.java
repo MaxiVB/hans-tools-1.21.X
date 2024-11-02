@@ -1,6 +1,7 @@
 package net.maxivb.hanstools;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.maxivb.hanstools.block.ModBlocks;
 import net.maxivb.hanstools.item.ModItemGroups;
 import net.maxivb.hanstools.item.ModItems;
@@ -17,5 +18,7 @@ public class HansTools implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.URANIUM, 1000);
 	}
 }

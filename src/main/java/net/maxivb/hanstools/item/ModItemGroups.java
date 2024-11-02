@@ -30,6 +30,15 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup FOOD_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(HansTools.MOD_ID, "food"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.URANIUM_ROD))
+                    .displayName(Text.translatable("itemgroup.hanstools.food"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.URANIUM_ROD);
+
+                    }).build());
+
  public static final ItemGroup TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(HansTools.MOD_ID, "tools"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
@@ -49,6 +58,16 @@ public class ModItemGroups {
                           entries.add(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE);
 
                     }).build());
+
+    public static final ItemGroup FUEL_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(HansTools.MOD_ID, "fuel"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.URANIUM))
+                    .displayName(Text.translatable("itemgroup.hanstools.fuel"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.URANIUM);
+
+                    }).build());
+
 
 
 
