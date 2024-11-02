@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "hanstools:uranium"
+    },
+    "-": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    " #-",
+    "##-",
+    "#--"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hanstools:uranium_ingot"
+  }
+}

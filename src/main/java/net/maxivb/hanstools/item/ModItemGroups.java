@@ -21,6 +21,7 @@ public class ModItemGroups {
                           entries.add(ModBlocks.RUBY_BLOCK);
                           entries.add(ModBlocks.RUBY_ORE_BLOCK);
                           entries.add(ModBlocks.RUBY_DEEPSLATE_ORE_BLOCK);
+                          entries.add(ModItems.URANIUM_INGOT);
                           entries.add(ModItems.URANIUM);
                           entries.add(ModBlocks.URANUIM_BLOCK);
                           entries.add(ModBlocks.URANIUM_ORE_BLOCK);
