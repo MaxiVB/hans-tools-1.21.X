@@ -5,6 +5,7 @@
   "item.hanstools.uranium": "Uranium",
   "item.hanstools.uranium_ingot": "Uranium Ingot",
   "item.hanstools.uranium_rod": "Uranium Rod",
+  "item.hanstools.placeholder": "Placeholder",
 
   "block.hanstools.ruby_block": "Block of Ruby",
   "block.hanstools.ruby_ore_block": "Ruby Ore",
@@ -16,6 +17,7 @@
   "itemgroup.hanstools.ores": "Ores and Oreblocks",
   "itemgroup.hanstools.tools": "Tools",
   "itemgroup.hanstools.templates": "Templates",
-  "itemgroup.hanstools.food": "Food",
-  "itemgroup.hanstools.fuel": "Fuel"
+  "itemgroup.hanstools.food_and_drinks": "Food & Drinks",
+  "itemgroup.hanstools.fuel": "Fuel",
+  "itemgroup.hanstools.combat": "Combat"
 }

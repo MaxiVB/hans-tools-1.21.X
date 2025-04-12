@@ -6,6 +6,7 @@ import net.maxivb.hanstools.block.ModBlocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -31,9 +32,9 @@ public class ModItemGroups {
                     }).build());
 
     public static final ItemGroup FOOD_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(HansTools.MOD_ID, "food"),
+            Identifier.of(HansTools.MOD_ID, "food_and_drinks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.URANIUM_ROD))
-                    .displayName(Text.translatable("itemgroup.hanstools.food"))
+                    .displayName(Text.translatable("itemgroup.hanstools.food_and_drinks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.URANIUM_ROD);
 
@@ -41,11 +42,19 @@ public class ModItemGroups {
 
  public static final ItemGroup TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(HansTools.MOD_ID, "tools"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PLACEHOLDER))
                     .displayName(Text.translatable("itemgroup.hanstools.tools"))
                     .entries((displayContext, entries) -> {
-                          entries.add(ModItems.EMERALD_UPGRADE_SMITHING_TEMPLATE);
-                          entries.add(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE);
+                          entries.add(ModItems.PLACEHOLDER);
+
+                    }).build());
+
+    public static final ItemGroup COMBAT_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(HansTools.MOD_ID, "combat"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PLACEHOLDER))
+                    .displayName(Text.translatable("itemgroup.hanstools.combat"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.PLACEHOLDER);
 
                     }).build());
 

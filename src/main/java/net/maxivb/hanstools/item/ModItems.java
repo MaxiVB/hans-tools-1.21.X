@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item EMERALD_UPGRADE_SMITHING_TEMPLATE = registerItem("emerald_upgrade_smithing_template", new Item(new Item.Settings()));
     public static final Item URANIUM = registerItem("uranium", new Item(new Item.Settings()));
     public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new Item.Settings()));
+    public static final Item PLACEHOLDER = registerItem("placeholder", new Item(new Item.Settings()));
 
     public static final Item URANIUM_ROD = registerItem("uranium_rod", new Item(new Item.Settings()
             .food(ModFoodComponents.URANIUM_ROD)));
