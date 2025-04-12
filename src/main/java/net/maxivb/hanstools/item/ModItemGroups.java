@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup ORES_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(HansTools.MOD_ID, "ores"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.URANIUM_INGOT))
                     .displayName(Text.translatable("itemgroup.hanstools.ores"))
                     .entries((displayContext, entries) -> {
                           entries.add(ModItems.RUBY);
