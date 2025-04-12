@@ -60,7 +60,7 @@ public class ModItemGroups {
 
  public static final ItemGroup TEMPLATES_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(HansTools.MOD_ID, "templates"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.EMERALD_UPGRADE_SMITHING_TEMPLATE))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
                     .displayName(Text.translatable("itemgroup.hanstools.templates"))
                     .entries((displayContext, entries) -> {
                           entries.add(ModItems.EMERALD_UPGRADE_SMITHING_TEMPLATE);
