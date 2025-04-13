@@ -3,9 +3,10 @@
 	"id": "hanstools",
 	"version": "${version}",
 	"name": "Hans tools",
-	"description": "This is the HansTools Mod! Its adding more cool custom Tools in to the GAME ",
+	"description": "This is the HansTools Mod. Its adding cool custom Tools, Bosses and more in to the GAME! ",
 	"authors": [
-		"MaxiVB"
+		"MaxiVB",
+		"Aftyl"
 	],
 
 	"contact": {

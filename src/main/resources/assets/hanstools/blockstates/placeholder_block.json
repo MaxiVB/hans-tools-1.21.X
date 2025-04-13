@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hanstools:block/placeholder_block"
+    }
+  }
+}

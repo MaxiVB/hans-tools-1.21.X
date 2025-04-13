@@ -13,6 +13,7 @@
   "block.hanstools.uranium_block": "Uranblock",
   "block.hanstools.uranium_ore_block": "Uranerz",
   "block.hanstools.uranium_deepslate_ore_block": "Tiefenschiefer-Uranerz",
+  "block.hanstools.placeholder_block": "Platzhalterblock",
 
   "itemgroup.hanstools.ores": "Erze und Erzblocke",
   "itemgroup.hanstools.tools": "Werkzeuge",

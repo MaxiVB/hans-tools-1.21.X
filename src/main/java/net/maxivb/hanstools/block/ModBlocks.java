@@ -22,6 +22,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(5f)
                     .requiresTool().sounds(BlockSoundGroup.COPPER)));
 
+    public static final Block PLACEHOLDER_BLOCK = registerBlock("placeholder_block",
+            new Block(AbstractBlock.Settings.create().strength(0.5f)
+                    .sounds(BlockSoundGroup.ROOTED_DIRT)));
+
     public static final Block RUBY_DEEPSLATE_ORE_BLOCK = registerBlock("ruby_deepslate_ore_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
