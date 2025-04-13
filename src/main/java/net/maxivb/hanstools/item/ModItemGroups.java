@@ -58,22 +58,24 @@ public class ModItemGroups {
 
                     }).build());
 
- public static final ItemGroup TEMPLATES_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(HansTools.MOD_ID, "templates"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
-                    .displayName(Text.translatable("itemgroup.hanstools.templates"))
+ public static final ItemGroup INGREDIENTS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(HansTools.MOD_ID, "ingredients"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PLACEHOLDER))
+                    .displayName(Text.translatable("itemgroup.hanstools.ingredients"))
                     .entries((displayContext, entries) -> {
                           entries.add(ModItems.EMERALD_UPGRADE_SMITHING_TEMPLATE);
                           entries.add(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE);
+                          entries.add(ModItems.URANIUM);
+                          entries.add(ModItems.URANIUM_INGOT);
 
                     }).build());
 
-    public static final ItemGroup FUEL_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(HansTools.MOD_ID, "fuel"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.URANIUM))
-                    .displayName(Text.translatable("itemgroup.hanstools.fuel"))
+    public static final ItemGroup SPAWNEGGS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(HansTools.MOD_ID, "spawneggs"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PLACEHOLDER))
+                    .displayName(Text.translatable("itemgroup.hanstools.spawneggs"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.URANIUM);
+                        entries.add(ModItems.PLACEHOLDER);
 
                     }).build());
 

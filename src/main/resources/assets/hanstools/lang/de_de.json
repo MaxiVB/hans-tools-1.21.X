@@ -17,8 +17,8 @@
 
   "itemgroup.hanstools.ores": "Erze und Erzblocke",
   "itemgroup.hanstools.tools": "Werkzeuge",
-  "itemgroup.hanstools.templates": "Schmiedevorlagen",
+  "itemgroup.hanstools.ingredients": "Werkstoffe",
   "itemgroup.hanstools.food_and_drinks": "Essen & Trinken",
-  "itemgroup.hanstools.fuel": "Kraftstoff",
+  "itemgroup.hanstools.spawneggs": "Spawn-Eier",
   "itemgroup.hanstools.combat": "Kampf"
 }

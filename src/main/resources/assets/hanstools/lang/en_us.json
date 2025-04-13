@@ -17,8 +17,8 @@
 
   "itemgroup.hanstools.ores": "Ores and Oreblocks",
   "itemgroup.hanstools.tools": "Tools",
-  "itemgroup.hanstools.templates": "Templates",
+  "itemgroup.hanstools.ingredients": "Ingredients",
   "itemgroup.hanstools.food_and_drinks": "Food & Drinks",
-  "itemgroup.hanstools.fuel": "Fuel",
+  "itemgroup.hanstools.spawneggs": "Spawn Eggs",
   "itemgroup.hanstools.combat": "Combat"
 }
